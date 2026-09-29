@@ -471,28 +471,36 @@ window.QUESTION_SCREEN_SESSION = {
           "id": "m3-agentes",
           "type": "content",
           "kicker": "📄 Texto",
-          "title": "Qual Agente Extintor Usar em Cada Classe",
+          "skin": "agents",
+          "cardAspect": "square",
+          "title": "Qual agente usar em cada classe",
           "cards": [
             {
               "title": "Água",
-              "body": "Indicada para Classe A.",
+              "lead": "Classe A",
+              "body": "Madeira, papel, tecidos e resíduos sólidos comuns.",
               "image": "assets/fotos/agua.png",
-              "imageAlt": "Extintor de água"
+              "imageAlt": "Extintor de água em uso",
+              "tone": "agua"
             },
             {
-              "title": "Pó Químico Seco (PQS)",
-              "body": "Indicado para Classes B e C.",
+              "title": "Pó Químico Seco",
+              "lead": "Classes B e C",
+              "body": "Líquidos inflamáveis e equipamentos elétricos energizados.",
               "image": "assets/fotos/pqs.png",
-              "imageAlt": "Extintor de pó químico seco"
+              "imageAlt": "Extintor de pó químico seco em uso",
+              "tone": "pqs"
             },
             {
               "title": "Gás Carbônico (CO₂)",
-              "body": "Classes B e C — especialmente equipamentos elétricos sensíveis.",
+              "lead": "Classes B e C",
+              "body": "Painéis e equipamentos elétricos sensíveis — sem deixar resíduos.",
               "image": "assets/fotos/gás.png",
-              "imageAlt": "Extintor de gás carbônico"
+              "imageAlt": "Extintor de gás carbônico em painel elétrico",
+              "tone": "co2"
             }
           ],
-          "transcript": "Tabela agente x classe."
+          "transcript": "Três agentes extintores: água na classe A; PQS e CO₂ nas classes B e C."
         },
         {
           "id": "m3-equipamentos",

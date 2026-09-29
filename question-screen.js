@@ -394,7 +394,8 @@
       var aspectClass = (data.cardAspect === 'landscape' || data.cardAspect === 'horizontal')
         ? ' is-landscape'
         : (data.cardAspect === 'square' || data.cardAspect === '1x1' ? ' is-square' : '');
-      var skinClass = data.skin === 'actions' ? ' is-actions' : '';
+      var skinClass = data.skin === 'actions' ? ' is-actions'
+        : (data.skin === 'agents' ? ' is-agents' : '');
       html += `<div class="qs-cards count-${data.cards.length}${aspectClass}${skinClass}">${data.cards.map(function (c) {
         var imgOnly = !!(c.image && !c.title && !c.body && !c.icon && !(c.points && c.points.length));
         var img = c.image
@@ -570,7 +571,8 @@
       </article>`;
     }
     var dense = (data.items && data.items.length > 6) || (data.cards && data.cards.length > 3);
-    var skin = data.skin === 'actions' ? ' is-actions' : '';
+    var skin = data.skin === 'actions' ? ' is-actions'
+      : (data.skin === 'agents' ? ' is-agents' : '');
     return `
       <article class="qs-screen is-content is-text${dense ? ' is-dense' : ''}${skin}" data-qs-root data-type="content">
         <div class="qs-panel qs-panel-text">

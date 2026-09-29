@@ -1,0 +1,117 @@
+/* ==========================================================================
+   SELO "BEM-VINDO AO NÍVEL INTERMEDIÁRIO"
+   Cores alinhadas ao curso (verde #008471 + amarelo #F4D242).
+   ========================================================================== */
+.qs-unlock {
+  position: fixed;
+  inset: 0;
+  z-index: 10050;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 32px;
+  text-align: center;
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 38%, rgba(244, 210, 66, 0.18) 0%, transparent 60%),
+    linear-gradient(165deg, #008471 0%, #006B5C 45%, #004D42 100%);
+  cursor: pointer;
+  animation: qsUnlockIn 0.5s ease both;
+}
+.qs-unlock[hidden] { display: none !important; }
+.qs-unlock.is-leaving { animation: qsUnlockOut 0.55s ease both; pointer-events: none; }
+
+.qs-unlock-badge {
+  width: 128px;
+  height: 128px;
+  margin-bottom: 6px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, #fff 0%, transparent 30%),
+    linear-gradient(145deg, #F7DC6A, #F4D242 55%, #D4B020 130%);
+  box-shadow:
+    0 0 0 10px rgba(244, 210, 66, 0.22),
+    0 18px 40px rgba(0, 0, 0, 0.35);
+  animation: qsUnlockBadgePop 0.8s cubic-bezier(0.2, 1.4, 0.4, 1) 0.15s both,
+             qsUnlockBadgeGlow 2.2s ease-in-out 1s infinite;
+}
+.qs-unlock-badge-face {
+  font-size: 3.6rem;
+  line-height: 1;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+.qs-unlock-tag {
+  font-family: var(--qs-font-h, 'Montserrat', sans-serif);
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #F4D242;
+  opacity: 0;
+  animation: qsUnlockFadeUp 0.5s ease 0.55s both;
+}
+.qs-unlock-title {
+  font-family: var(--qs-font-h, 'Montserrat', sans-serif);
+  font-weight: 900;
+  font-size: clamp(1.7rem, 5vw, 2.6rem);
+  line-height: 1.12;
+  color: #fdf8ea;
+  margin: 4px 0 2px;
+  opacity: 0;
+  animation: qsUnlockFadeUp 0.55s ease 0.68s both;
+}
+.qs-unlock-sub {
+  font-family: var(--qs-font-b, 'Open Sans', sans-serif);
+  font-weight: 600;
+  font-size: 1rem;
+  color: #D8F0EA;
+  max-width: 46ch;
+  margin: 0 0 20px;
+  opacity: 0;
+  animation: qsUnlockFadeUp 0.55s ease 0.85s both;
+}
+.qs-unlock-skip {
+  font-family: var(--qs-font-h, 'Montserrat', sans-serif);
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: rgba(253, 248, 234, 0.75);
+  background: transparent;
+  border: 1.5px solid rgba(244, 210, 66, 0.45);
+  border-radius: 999px;
+  padding: 10px 22px;
+  cursor: pointer;
+  opacity: 0;
+  animation: qsUnlockFadeUp 0.55s ease 1.05s both;
+}
+.qs-unlock-skip:hover { border-color: #F4D242; color: #fdf8ea; }
+
+@keyframes qsUnlockIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes qsUnlockOut { to { opacity: 0; } }
+@keyframes qsUnlockBadgePop {
+  from { transform: scale(0.4) rotate(-14deg); opacity: 0; }
+  70%  { transform: scale(1.12) rotate(4deg); opacity: 1; }
+  to   { transform: scale(1) rotate(0); opacity: 1; }
+}
+@keyframes qsUnlockBadgeGlow {
+  0%, 100% { box-shadow: 0 0 0 10px rgba(244, 210, 66, 0.22), 0 18px 40px rgba(0, 0, 0, 0.35); }
+  50%      { box-shadow: 0 0 0 16px rgba(244, 210, 66, 0.34), 0 18px 44px rgba(0, 0, 0, 0.4); }
+}
+@keyframes qsUnlockFadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 599px) {
+  .qs-unlock-badge { width: 104px; height: 104px; }
+  .qs-unlock-badge-face { font-size: 3rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .qs-unlock, .qs-unlock-badge, .qs-unlock-tag, .qs-unlock-title, .qs-unlock-sub, .qs-unlock-skip {
+    animation: none !important;
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -3244,6 +3244,118 @@ html.qs-lightbox-open body {
   line-height: 1.45;
 }
 
+/* Agente × classe — cards com foto e selo da classe (igual Básico p24) */
+.qs-screen.is-agents {
+  background:
+    radial-gradient(ellipse 65% 50% at 50% -10%, rgba(0, 132, 113, 0.18), transparent 55%),
+    radial-gradient(ellipse 50% 40% at 100% 100%, rgba(244, 210, 66, 0.14), transparent 50%),
+    linear-gradient(165deg, #f7fbf9 0%, #eef6f2 55%, #e6f2ec 100%);
+}
+.qs-screen.is-agents .qs-panel-text {
+  justify-content: center;
+  gap: 4px;
+}
+.qs-screen.is-agents .qs-title {
+  text-align: center;
+  margin-bottom: 16px;
+  color: var(--qs-ink);
+}
+.qs-cards.is-agents {
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 14px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.qs-cards.is-agents .qs-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid rgba(0, 132, 113, 0.12);
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0, 50, 40, 0.1);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+.qs-cards.is-agents .qs-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(0, 50, 40, 0.14);
+}
+.qs-cards.is-agents .qs-card-media {
+  margin: 0;
+  border-radius: 0;
+  aspect-ratio: 1 / 1;
+  max-height: none;
+  background: #004D42;
+}
+.qs-cards.is-agents .qs-card-img {
+  object-fit: cover;
+  object-position: center 30%;
+}
+.qs-cards.is-agents .qs-card-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 14px 14px 0;
+}
+.qs-cards.is-agents .qs-card-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+.qs-cards.is-agents .qs-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--qs-ink);
+  line-height: 1.25;
+}
+.qs-cards.is-agents .qs-card-lead {
+  display: inline-flex;
+  align-items: center;
+  order: -1;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-family: var(--qs-font-h);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--qs-green);
+}
+.qs-cards.is-agents .qs-card.tone-agua .qs-card-lead {
+  background: linear-gradient(135deg, #00a8b2, #008471);
+}
+.qs-cards.is-agents .qs-card.tone-pqs .qs-card-lead {
+  background: linear-gradient(135deg, #E04A38, #BC1A0D);
+}
+.qs-cards.is-agents .qs-card.tone-co2 .qs-card-lead {
+  background: linear-gradient(135deg, #006B5C, #00332C);
+}
+.qs-cards.is-agents .qs-card > p {
+  padding: 8px 14px 16px;
+  margin: 0;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--qs-muted);
+  line-height: 1.4;
+}
+@media (max-width: 720px) {
+  .qs-cards.is-agents {
+    grid-template-columns: 1fr;
+    max-width: 360px;
+  }
+  .qs-cards.is-agents .qs-card-media {
+    aspect-ratio: 16 / 10;
+  }
+}
+
 /* Prevenir × Papel — versão colorida */
 .qs-screen.is-actions {
   background:

@@ -252,8 +252,7 @@
     var mods = (session && session.modules) || [];
     var parts = [
       'NR 23, Proteção Contra Incêndios, Brigada de Incêndio, Nível Intermediário.',
-      'Conteúdo programático completo.',
-      'Só o módulo liberado pode ser aberto.'
+      'Conteúdo programático completo.'
     ];
     mods.forEach(function (m) {
       parts.push('Módulo ' + m.id + ', ' + clean(m.title) + '.');
