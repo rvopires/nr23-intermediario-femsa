@@ -1,5 +1,5 @@
 ﻿/**
- * Conteúdo — NR 23 Proteção Contra Incêndios (Brigada de Incêndio - Nível Intermediário) · FEMSA / Coca-Cola
+ * Conteúdo — NR 23 Proteção Contra Incêndios (Brigada de Incêndio - Nível Intermediário) · Coca-Cola
  * Gerado a partir de Roteiro-NR23-Brigada-Incendio.txt
  *
  * Tipos: cover | content | video | image | quiz-intro | question | order | match | compare | reflect | finale
@@ -52,7 +52,7 @@ window.QUESTION_SCREEN_SESSION = {
           "duration": "0:35",
           "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=32bc5670-14b3-4323-b7ac-486cd06a3de6",
           "playerId": "panda-32bc5670-14b3-4323-b7ac-486cd06a3de6",
-          "scene": "Abertura com a instrutora Fernanda + takes no escritório FEMSA",
+          "scene": "Abertura com a instrutora Fernanda + takes no escritório Coca-Cola",
           "brief": "Fernanda se apresenta; cortes rápidos: extintor, rota de fuga, colaboradores, quadro elétrico; título sobre fundo vermelho institucional.",
           "body": "Nos primeiros minutos de um princípio de incêndio, quem está treinado faz a diferença entre um susto controlado e uma tragédia. Neste treinamento de NR 23 você aprende a prevenir, combater o início do fogo, apoiar na evacuação e prestar primeiros socorros.",
           "transcript": "Vídeo de abertura: os primeiros minutos decidem tudo."
@@ -65,9 +65,9 @@ window.QUESTION_SCREEN_SESSION = {
           "duration": "0:40",
           "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=25fb4bf7-7a17-4002-ac13-41773c05cf26",
           "playerId": "panda-25fb4bf7-7a17-4002-ac13-41773c05cf26",
-          "scene": "Brigadista com colete laranja no open space FEMSA",
+          "scene": "Brigadista com colete laranja no open space Coca-Cola",
           "brief": "Colaborador de colete e crachá circula pelo escritório até o quadro com organograma da brigada.",
-          "body": "A Brigada de Incêndio é um grupo organizado de colaboradores, treinados para prevenir e combater um princípio de incêndio, evacuar e prestar primeiros socorros. Na FEMSA, são colegas do próprio andar. Objetivo: proteger vida e patrimônio até a chegada do socorro especializado.",
+          "body": "A Brigada de Incêndio é um grupo organizado de colaboradores, treinados para prevenir e combater um princípio de incêndio, evacuar e prestar primeiros socorros. Na Coca-Cola, são colegas do próprio andar. Objetivo: proteger vida e patrimônio até a chegada do socorro especializado.",
           "transcript": "Vídeo: o que é a Brigada de Incêndio."
         },
         {
@@ -79,7 +79,7 @@ window.QUESTION_SCREEN_SESSION = {
             {
               "icon": "👔",
               "title": "Coordenador Geral",
-              "body": "Responsável institucional pela brigada perante a FEMSA."
+              "body": "Responsável institucional pela brigada perante a Coca-Cola."
             },
             {
               "icon": "🧭",
@@ -449,7 +449,7 @@ window.QUESTION_SCREEN_SESSION = {
           "duration": "1:25",
           "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=915e1a67-282e-460c-aa69-d0442e339478",
           "playerId": "panda-915e1a67-282e-460c-aa69-d0442e339478",
-          "scene": "Demonstração real no corredor FEMSA (sem fogo)",
+          "scene": "Demonstração real no corredor Coca-Cola (sem fogo)",
           "brief": "Retirar da parede, tirar trava, jato em ziguezague na base; PQS a 4–6 m formando nuvem.",
           "body": "Água: 10 L, alcance 8–10 m. PQS: 1 a 12 kg, aproximar 4–6 m, jato horizontal em ziguezague. Sempre: parede → trava → mangueira → base do fogo.",
           "transcript": "Vídeo: operar extintores de água e PQS."
@@ -674,7 +674,7 @@ window.QUESTION_SCREEN_SESSION = {
           "duration": "1:00",
           "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=a7feb7ef-d689-456d-8cfb-e83018ad7b75",
           "playerId": "panda-a7feb7ef-d689-456d-8cfb-e83018ad7b75",
-          "scene": "Hábitos reais no escritório FEMSA",
+          "scene": "Hábitos reais no escritório Coca-Cola",
           "brief": "Desligar carregadores, organizar cabos, lixeira limpa, checar equipamentos ao sair; alerta de gás.",
           "body": "Não use lixo como cinzeiro. Desligue equipamentos da tomada. Não cubra fios com tapetes nem use plugues em T. Antes de sair, confira se nada ficou ligado. Cheiro de gás: ventile, não mexa em interruptores nem acenda fósforo.",
           "transcript": "Vídeo: prevenção no dia a dia."
@@ -1773,7 +1773,7 @@ window.QUESTION_SCREEN_SESSION = {
           "duration": "0:30",
           "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=4821065b-d6e7-4715-aa3e-3ce8cdf013d9",
           "playerId": "panda-4821065b-d6e7-4715-aa3e-3ce8cdf013d9",
-          "scene": "Brigadista confiante no corredor + logo FEMSA",
+          "scene": "Brigadista confiante no corredor + logo Coca-Cola",
           "brief": "Mensagem final e frase de fechamento do material NR 23.",
           "body": "Todos têm o direito de viver em um ambiente seguro, sem correr riscos desnecessários e sem receios de danos à sua saúde e vida. Você concluiu o NR 23 Intermediário — esteja sempre pronto.",
           "transcript": "Vídeo de encerramento."

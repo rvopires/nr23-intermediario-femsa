@@ -21,7 +21,7 @@
     'Segurança do trabalho.',
     'NR 23, Proteção Contra Incêndios, Brigada de Incêndio, Nível Intermediário.',
     'Aprenda a prevenir, combater o princípio de incêndio, apoiar na evacuação',
-    'e prestar os primeiros socorros no escritório FEMSA.',
+    'e prestar os primeiros socorros no ambiente Coca-Cola.',
     'São sete módulos, com conteúdo completo, em treinamento cem por cento online.',
     'Na imagem: capa do treinamento, brigadistas em ação no ambiente de trabalho.',
     'Na imagem: logo TecnoCursos.'

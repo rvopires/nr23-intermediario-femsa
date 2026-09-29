@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-29T12:18:51.588Z",
+  "generatedAt": "2026-09-29T14:36:14.667Z",
   "items": {
     "home": {
       "file": "assets/audio/home.mp3",
-      "text": "Abertura do treinamento. Segurança do trabalho. NR 23, Proteção Contra Incêndios, Brigada de Incêndio, Nível Intermediário. Aprenda a prevenir, combater o princípio de incêndio, apoiar na evacuação e prestar os primeiros socorros no escritório FEMSA. São sete módulos, com conteúdo completo, em treinamento cem por cento online. Na imagem: capa do treinamento, brigadistas em ação no ambiente de trabalho. Na imagem: logo TecnoCursos."
+      "text": "Abertura do treinamento. Segurança do trabalho. NR 23, Proteção Contra Incêndios, Brigada de Incêndio, Nível Intermediário. Aprenda a prevenir, combater o princípio de incêndio, apoiar na evacuação e prestar os primeiros socorros no ambiente Coca-Cola. São sete módulos, com conteúdo completo, em treinamento cem por cento online. Na imagem: capa do treinamento, brigadistas em ação no ambiente de trabalho. Na imagem: logo TecnoCursos."
     },
     "m1-cover": {
       "file": "assets/audio/m1-cover.mp3",
@@ -247,7 +247,7 @@
     },
     "m1-composicao": {
       "file": "assets/audio/m1-composicao.mp3",
-      "text": "Composição da Brigada e Atribuições. Coordenador Geral: Responsável institucional pela brigada perante a FEMSA. Líder da Brigada: Comanda a ação nos primeiros minutos de qualquer emergência. Brigadistas: Atuam na prevenção, combate ao princípio de incêndio, abandono de área e primeiros socorros. Prevenção: analisar os riscos existentes no local. Comunicar: informar ao coordenador irregularidades de prevenção e proteção. Orientar: orientar colaboradores do setor sobre prevenção e proteção contra incêndios."
+      "text": "Composição da Brigada e Atribuições. Coordenador Geral: Responsável institucional pela brigada perante a Coca-Cola. Líder da Brigada: Comanda a ação nos primeiros minutos de qualquer emergência. Brigadistas: Atuam na prevenção, combate ao princípio de incêndio, abandono de área e primeiros socorros. Prevenção: analisar os riscos existentes no local. Comunicar: informar ao coordenador irregularidades de prevenção e proteção. Orientar: orientar colaboradores do setor sobre prevenção e proteção contra incêndios."
     },
     "m1-v-procedimentos": {
       "file": "assets/audio/m1-v-procedimentos.mp3",
@@ -295,7 +295,7 @@
     },
     "m3-agentes": {
       "file": "assets/audio/m3-agentes.mp3",
-      "text": "Qual Agente Extintor Usar em Cada Classe. Água: Indicada para Classe A. Na imagem: Extintor de água. Pó Químico Seco (PQS): Indicado para Classes B e C. Na imagem: Extintor de pó químico seco. Gás Carbônico (CO₂): Classes B e C, especialmente equipamentos elétricos sensíveis. Na imagem: Extintor de gás carbônico."
+      "text": "Qual agente usar em cada classe. Água: Madeira, papel, tecidos e resíduos sólidos comuns. Na imagem: Extintor de água em uso. Pó Químico Seco: Líquidos inflamáveis e equipamentos elétricos energizados. Na imagem: Extintor de pó químico seco em uso. Gás Carbônico (CO₂): Painéis e equipamentos elétricos sensíveis, sem deixar resíduos. Na imagem: Extintor de gás carbônico em painel elétrico."
     },
     "m3-equipamentos": {
       "file": "assets/audio/m3-equipamentos.mp3",
