@@ -4494,7 +4494,7 @@ html.qs-lightbox-open body {
   overflow: hidden;
 }
 .qs-screen.is-order .qs-qbar-wrap {
-  margin: 10px 16px 0;
+  display: none;
 }
 .qs-screen.is-order .qs-panel-text {
   display: flex;
